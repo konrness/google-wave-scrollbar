@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/ DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>KonrNess.com - Code - jQuery Plugin - Google Wave Scroll Pane</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" media="screen" charset="utf-8" />
+
+    <link rel="stylesheet" href="styles/google-wave-scroll.css" type="text/css" media="screen" charset="utf-8" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="scripts/mousewheel.js"></script>
+    
+    <script type="text/javascript" src="scripts/gwave-scroll-pane-0.1.js"></script>
+ 
+    <script type="text/javascript">
+
+        $(function(){
+            $('.content').gWaveScrollPane();
+            
+        });
+
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-10324851-1']);
+        _gaq.push(['_setDomainName', '.konrness.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+
+    <h1>Google Wave-style Scroll Pane jQuery Plugin Example</h1>
+    <a class="download" href="jqWaveScroll-0.1.zip">Download Google Wave-style Scroll Pane jQuery Plugin  Source Code</a>
+
+    <p>Author: <a href="http://konrness.com/">Konr Ness</a></p>
+    <p><a href="http://konrness.com/javascript/google-wave-style-scroll-bar-jquery-plugin">Blog Post</a></p>
+    <p>This is a clone of the scroll pane that <a href="">Google Wave</a> uses. Google Wave is a revolutionary replacement to email, and they have also revolutionized the concept of a scroll bar.</p>
+
+    <p>This jQuery plugin requires jQuery UI. Specifically, it needs the Draggables plugin to support the dragging of the scroll bar.</p>
+    
+    <p>Like Google Wave, this plugin only works on Firefox, Chrome, and other modern browsers that support transparent images and image data embedded in CSS. With different styles, this plugin would work fine in IE.</p>
+
+    <h2>Examples</h2>
+
+        <div class="content" style="width: 300px; height: 400px;">
+            <h1>Top</h1>
+
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris viverra, ipsum id sollicitudin varius, mi lectus ullamcorper tellus, ut vulputate arcu turpis vel mi. Sed convallis vestibulum faucibus. Duis ipsum nisi, tempor sit amet faucibus ac, vestibulum nec est. Aenean nec neque neque, eget semper orci. Nunc porttitor, metus quis lacinia consequat, dolor metus pharetra ante, ac interdum nisl eros sit amet sapien. Etiam a est tortor. Morbi vitae risus est, eget laoreet nunc. Pellentesque nulla mi, malesuada quis tincidunt sagittis, gravida in massa. Nunc congue, elit sed commodo pretium, turpis quam malesuada est, non cursus lectus lectus sed risus. Donec vulputate libero ut mi ultrices at scelerisque odio tempus. Nulla odio ipsum, euismod vel pulvinar in, mollis nec diam. Praesent tincidunt consequat augue, a lobortis urna consectetur ac.
+            </p>
+
+            <p>
+            Quisque laoreet egestas sapien, lobortis luctus felis ullamcorper sit amet. Donec interdum ullamcorper lorem, eget elementum diam ornare sed. Nunc et dolor urna. Duis ornare enim dictum enim ullamcorper luctus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec rhoncus, ante ut laoreet pulvinar, enim diam gravida enim, nec adipiscing felis orci eget mauris. Ut quis purus vitae urna consectetur rhoncus et at nisl. Integer eget nunc arcu, id venenatis justo. Sed molestie libero accumsan metus luctus ultrices. Cras nec felis vitae odio aliquam scelerisque eu faucibus odio. Praesent et volutpat dui.
+            </p>
+
+            <p>
+            Integer ullamcorper mauris et lectus bibendum id molestie felis ullamcorper. Fusce quis aliquet enim. Pellentesque commodo, augue in accumsan feugiat, nisi nisl faucibus sem, sed hendrerit nunc quam sed leo. Mauris commodo nibh ut dolor luctus mattis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tristique imperdiet tellus eu pretium. Phasellus lacinia leo sit amet ligula pretium eget imperdiet magna rutrum. Suspendisse sed dui sit amet lacus vestibulum ullamcorper in ut neque. In luctus urna eget erat dictum nec dictum nunc consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            </p>
+
+            <p>
+            Vivamus at nunc quam, sed mattis enim. Vestibulum malesuada magna metus. Vestibulum vestibulum metus eu libero volutpat rhoncus. Proin lacinia ligula non tellus ornare porta. Aliquam lectus massa, aliquam eget venenatis id, varius sed urna. Vestibulum vitae accumsan augue. Nam varius lacus id risus commodo sit amet placerat eros vehicula. Proin pretium, sapien id tristique semper, lectus dui tincidunt orci, eget interdum massa sapien vitae ligula. Curabitur eget orci eu dui aliquam hendrerit. Vestibulum ante mi, vestibulum in egestas non, suscipit id libero.
+            </p>
+
+            <p>
+            Aliquam erat volutpat. Donec blandit, lorem nec sagittis consectetur, tellus neque tincidunt tortor, a venenatis orci felis ut odio. Donec convallis fermentum mauris sit amet malesuada. Suspendisse aliquet commodo porta. Vivamus adipiscing fringilla lectus, eget convallis nulla pellentesque ultricies. Praesent in commodo mi. Praesent fringilla urna eleifend neque commodo mattis. Integer cursus magna nec erat condimentum pellentesque. Curabitur feugiat rhoncus fringilla. Nulla id nisi sit amet metus lobortis tempor. Curabitur non mauris dolor, sit amet fringilla ligula. Donec adipiscing arcu quam, vel consequat neque. Vivamus vitae convallis leo. Nullam eget libero vestibulum neque varius luctus vel sed dui. Sed massa turpis, dictum a fringilla vel, posuere vitae augue. Donec pharetra, mauris eget vestibulum dignissim, dolor nisi interdum odio, at sagittis odio elit ut enim. Phasellus est nibh, sollicitudin in consectetur nec, vestibulum sit amet urna. Quisque tincidunt urna quis sapien pharetra in consectetur diam auctor. Donec est libero, ultrices at aliquam molestie, porttitor pretium augue. 
+            </p>
+
+            <h2>Bottom</h2>
+        </div>
+
+    <h2>Usage</h2>
+
+    <pre>
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function(){
+        $('.content').gWaveScrollPane();
+    });
+&lt;/script&gt;    
+    </pre>
+
+</body>
+</html>
